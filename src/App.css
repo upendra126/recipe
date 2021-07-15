@@ -36,3 +36,529 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media(min-width:1100px) {
+    html .quiz_multiple_options {
+        height: auto !important
+    }
+
+    html .quiz_multiple_options .kyoko.quiz_question_1 {
+        flex: auto;
+        height: 100vh;
+    }
+}
+
+.custom__checkbox {
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 55px;
+    z-index: 99;
+    padding-top: 25px;
+}
+
+.custom__checkbox input {
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+}
+
+.custom__checkbox input[type='checkbox']:checked {
+    background: #4998A6 ;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 12px;
+    background-position: center center;
+}
+
+.hide {
+    display: none !important;
+}
+
+@media(max-width:767px) {
+    .custom__checkbox {
+        justify-content: flex-start;
+        width: 100%;
+        color: #000;
+        font-size: 10px;
+        margin-top: 22px;
+        flex-direction: row-reverse;
+        top: 15px;
+        padding: 0;
+        right: 0;
+        position: absolute;
+        width: 50%;
+    }
+
+    .custom__checkbox p {
+        text-align: right;
+        margin-right: 10px;
+        flex: 1;
+    }
+
+    .custom__checkbox input {
+        width: 18px;
+        border: 1px solid #000;
+        height: 18px;
+    }
+}
+
+.age-gate-modal.ui-widget.ui-widget-content {
+    height: 100vh !important;
+    background-color: #000000;
+    border: 0;
+}
+
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+}
+.ui-widget {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+.age-gate-modal.ui-widget.ui-widget-content .ui-widget-header {
+    display: none;
+}
+
+.ui-widget-header {
+    border: 1px solid #ddd;
+    background: #e9e9e9;
+    color: #333;
+    font-weight: bold;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+.age-gate-modal.ui-widget.ui-widget-content #drupal-modal {
+    border: 0;
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+}
+.ui-front {
+    z-index: 100;
+}
+#agegate {
+    
+    padding: 0;
+    background-size: cover;
+    background-position: 50%;
+    outline: none;
+    padding: 5px;
+    overflow-y: auto;
+    height: 100vh;
+}
+.bg.agegate .row {
+    margin: 0 !important;
+}
+
+.bg.agegate .columns {
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    margin: 0 auto;
+}
+
+.large-centered {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+
+#agegate form {
+    padding-top: 30px;
+}
+#agegate form {
+    text-align: center;
+}
+.agegate-popup img {
+    width: 450px;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+.header-font {
+    font-family: Daisy Wheel,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 34px!important;
+    padding-top: 15px;
+}
+p {
+    margin: 0 0 10px;
+}
+#agegate p {
+    font-size: 19.2px;
+    line-height: 1.42857;
+    color: #fff;
+}
+.form-group:last-child, .panel:last-child, p:last-child {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+
+.countrywidth, .countrywidth:focus {
+    max-width: 30rem;
+    width: 313px;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: Daisy Wheel,sans-serif;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+    padding-right: 36px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.bg.agegate select option {
+    background-color: #363636;
+    font-size: 20px !important;
+}
+.countrydmy .grid-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-container {
+    padding-right: .625rem;
+    padding-left: .625rem;
+    max-width: 32rem;
+    margin: 40px auto;
+}
+
+#day-dropdown {
+    width: 90px;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+
+.datewidth {
+    max-width: 9rem!important;
+}
+span.orange {
+    color: #ff4200;
+}
+#month-dropdown {
+    width: 180px;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+}
+.monthwidth {
+    max-width: 18rem !important;
+}
+#year-dropdown {
+    width: 122px;
+}
+.enterb {
+    font-family: Daisy Wheel,sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 53px;
+    position: relative;
+    background: #ff4200;
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 12.6px 21.6px;
+    line-height: 1.42857;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 30px;
+    color: #fff;
+}
+.enterb:after, .enterb:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 53px 0;
+    border-color: transparent #ff4200 transparent transparent;
+    top: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.enterb:after {
+    transform: rotate(1turn);
+    right: -25px;
+    transform: scaleX(-1);
+}
+
+.enterb:after, .enterb:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 53px 0;
+    border-color: transparent #ff4200 transparent transparent;
+    top: 0;
+}
+#agegate p {
+    font-size: 19.2px;
+    line-height: 1.42857;
+    color: #fff;
+}
+p.remember-me {
+    display: inline-block;
+}
+
+input#rememeber-box {
+    color: #ff4200;
+    border: 1px solid #ff4200;
+    width: 19px;
+    height: 18px;
+    margin-left: 20px;
+    padding-top: -25px;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+#agegate [type=checkbox]+label, #agegate [type=radio]+label {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 1rem;
+    margin-bottom: -19px;
+    margin-top: 0px;
+}
+p.remember-me label {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+p.remember-me small {
+    clear: both;
+    display: block;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.small, small {
+    font-size: 85%;
+}
+p.agreed, p.footer-text {
+    text-align: center;
+}
+
+p.footer-text {
+    font-size: 11.5px!important;
+    padding-bottom: 12px!important;
+}
+#agegate a {
+    color: #ff4200;
+}
+.enterb:before {
+    -webkit-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    transform: rotate(1turn);
+    left: -25px;
+}
+
+/* body{
+  background-color: #000 !important;
+} */
+p{
+  color: #fff;
+}
+.agegate-popup h4{
+
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+
+h2.title{
+    color: #fff;
+    text-align: center;
+}
+p.description{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+h2.title-black{
+    color: #000;
+    text-align: center;
+}
+p.description-black{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+hr.line-black{
+    border-bottom:3px solid #000 !important;
+    opacity: 1 !important;
+}
+
+.turkey-bg{
+    /* background:#bf3337; */
+    background: url(./images/turkey/auchentoshan/auchentoshan-bg.jpg) top center no-repeat; background-size: cover;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.turkey-bg-cat2{
+    background:#ff4200;
+    background: url(./images/turkey/jim-beam/JB-bg.jpg) top center no-repeat; background-size: cover;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.turkey-bg-cat3{
+    /* background:#db8486; */
+    background: url(./images/turkey/roku/roku-proxy-bg.jpg) top center no-repeat; background-size: cover;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.box{
+    padding: 20px 0px;
+}
+
+hr.line-white{
+    border-bottom:3px solid #fff !important;
+    opacity: 1 !important;
+}
+.logo{
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+
+.agegate{
+background: #000;
+}
+
+.play-btn{
+ cursor: pointer;
+}
+.show{
+    display: inline !important;
+}
+/* #background-video { background: url(https://cdn.pixabay.com/photo/2018/07/20/22/43/adler-3551609_960_720.jpg) top center no-repeat; background-size: contain;} */
+
+#background-video { width: 100%; height: 200px; position: relative; background-size: contain;}
+#background-video iframe { width: 100%; height: 100%; display: none; }
+#background-video .play-btn { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; font-size: 0px; line-height: 0px; background: url(http://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/playbutton.png) center center no-repeat; background-size: 120px auto; }
+
+@media (max-width:481px) and (min-width:320px){
+    .monthwidth {
+        max-width: 5rem !important;
+    }
+    .countrywidth, .countrywidth:focus {
+        max-width: 5rem !important;
+        width: 313px;
+        background: transparent;
+        text-transform: uppercase;
+        font-family: Daisy Wheel,sans-serif;
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid red;
+        font-size: 14px !important;
+        padding-right: 36px;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .enterb {
+        font-family: Daisy Wheel,sans-serif;
+        text-transform: uppercase;
+        font-size: 14px !important;
+        height: 53px;
+        position: relative;
+        background: #ff4200;
+        border: 0;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        white-space: nowrap;
+        padding: 12.6px 21.6px;
+        line-height: 1.42857;
+        border-radius: 0;
+        -webkit-user-select: none;
+        user-select: none;
+        margin: 30px;
+        color: #fff;
+    }
+}
